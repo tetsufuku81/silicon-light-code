@@ -1,0 +1,6 @@
+numpy
+matplotlib
+seaborn
+# 日本語ラベルの図（PLOT_LANG=ja、ブログ用）を作るときに追加:
+matplotlib-fontja   # japanize-matplotlib は Python 3.12 で不可（distutils 削除）。後継のこちらを使う
+# 厳密再現用にバージョンを固定したい場合は、実行後に `pip freeze | grep -iE "numpy|matplotlib|seaborn|fontja"` の値へ置き換える
